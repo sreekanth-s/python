@@ -1,0 +1,161 @@
+===============
+WAP convert to lower and upper
+
+===============
+ask the number of converted values from user
+
+babble --> ba**le
+giggle --> gi**le
+fabble --> fabble
+
+
+===============
+
+WAP to check all the arithmatic operators.
+
+
+===============
+
+WAP to accept a number and check whether that number is a power of 2.
+
+===============
+
+Paperwork
+
+accept a number from user and print the negative number of the number in BINARY
+
+2's compliment
+
+================
+
+WAP which will accept the number from user and count the number of "ON" bits from the number.
+
+================
+
+Python Linting ?????
+
+Pycode style
+
+=================
+
+WAP to accept two integers and substract smaller integer from larger and print.
+
+
+=================
+
+WAP to accept three integers and print maximum of them
+
+
+=================
+
+WAP to accept a number from user and print it's table.
+
+==================
+
+WAP to accept a number from user and print all even numbers.
+
+==================
+
+WAP to accept a string from user and check if a charecter is present in the string.
+
+
+==================
+
+WAP to accept a string from user and print that string if user types stop you should stop the program.
+
+===================
+
+WAP to accept a number from user and print even numbers in the range using while loop.
+
+===================
+
+WAP to accept a number from user and print the pattern of those many lines.
+
+====================
+
+WAP to print the triangle pattern
+
+====================
+
+WAP to find a factorial
+
+
+=====================
+
+WAP to accept lower bound and upper bound from user and return sum of odd and even numbers in the range.
+
+======================
+
+
+=======================================
+
+    D A T A  S T R U C T U R E S
+
+=======================================
+
+
+WAP to accept a list and find maximum and minumum value in a list.
+
+======================
+
+WAP to accept two ordered lists and merge them to form a new list.
+
+======================
+
+WAP to count the number of occurrences in a list
+
+======================
+
+WAP to accept two sorted lists and merge them sorted.
+
+======================
+
+WAP to accept a list and merge adjacent similar elements.
+
+======================
+
+WAP to implement a stack using list. -- write functions for push, pop, size, is_empty, top,
+
+======================
+
+WAP to accept a list and implement bubble sort and selection sort.
+
+======================
+
+WAP to accept a list and implement insertion sort and merge sort.
+
+======================
+
+WAP to accept two lists and write functions to find union, intersection and inverse intersections of those two lists.
+
+======================
+
+WAP to accept a string and perform run level encoding and decoding
+
+aaabbbbcccdeeeeeffg
+a3b4c3de5f2g
+
+def encoding_and_decoding(string):
+  for i in range(len(s)):
+      while s[i] == s[i+1]:
+              tmp = tmp+1
+      new_str=new_str+tmp
+
+
+
+======================
+
+WAP to accept an alphanumeric string and calculate sum of all the digits in the string.
+
+a3b4c3de5f2g
+
+def sum_of_numbers_in_alphanumeric_string(string=""):
+    """count the sum of individual characters that are numbers in a given string"""
+
+    total = 0
+    for val in string:
+        if val.isnumeric():
+            total=total+int(val)
+
+    return total
+======================
