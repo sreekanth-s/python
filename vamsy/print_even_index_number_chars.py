@@ -6,8 +6,11 @@ try:
 except:
     print("Kya fook ke aaya bey")
 
-for x in str_1:
-    print(str[x,2])
+for i in range(len(str_1)):
+    if i % 2 == 0:
+        print(str_1[i])
+
+
 
 
 """for i in range(len(str_1)):
